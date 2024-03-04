@@ -1,0 +1,41 @@
+
+	* {
+        margin:0;
+        padding: 0;
+        font-family:  Arial, sans-serif;
+        font-size: 18px;
+    
+        box-sizing: border-box;
+    }
+
+
+#container{
+    margin: 50px 200px;
+    border:3px solid black;
+
+    width: 500px;
+    height: 400px;
+   
+    top:0;left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+    position: relative;
+}
+.snows{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+
+}
+.btn{
+    margin: 10px 400px;
+    position: fixed;
+    width: 100px;
+    height: 60px;
+
+}
+p{
+    margin: 0 400px;
+}
